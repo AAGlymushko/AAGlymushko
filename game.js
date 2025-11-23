@@ -17,7 +17,7 @@ import {
     CAMERA_OFFSET_Y
 } from './constants.js';
 
-import { Enemy } from './enemy.js';
+import { Enemy } from './Enemy.js';
 
 import { Hero } from './Hero.js';
 
@@ -397,4 +397,5 @@ document.addEventListener('DOMContentLoaded', function()
         ]);
         
     round.play();
+
 });
